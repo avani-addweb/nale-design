@@ -104,6 +104,12 @@
     background-color: #FBF6F0;
     color: $white;
   }
+  &.btn-black {
+    padding: 10px 40px;
+    border: 2px solid $black;
+    background-color: transparent;
+    color: $black;
+  }
 }
 
 
