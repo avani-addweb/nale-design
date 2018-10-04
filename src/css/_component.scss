@@ -1,0 +1,135 @@
+/**
+ * Component Design
+ * - BG color
+ * - Text color
+ * - Date info design
+ * - Section design
+ * - module-banner section
+ */
+
+
+/* Bg color */
+.bg-orange-gradient {
+  @include background-horizontal($orange-start, $orange-end);
+}
+
+.bg-purple-gradient {
+  @include background-horizontal($purple-start, $purple-end);
+}
+
+.bg-blue-gradient {
+  @include background-horizontal($blue-start, $blue-end);
+}
+
+.bg-green-gradient {
+  @include background-horizontal($green-start, $green-end);
+}
+
+.bg_no {
+  background: none;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+
+/* Text color */
+.text-white {
+  color: $white;
+}
+.text-black {
+  color: $black;
+}
+
+.text-orange {
+  color: $orange;
+}
+.text-green {
+  color: $green;
+}
+
+.text-gradient-green {
+  background: -webkit-linear-gradient(45deg, $green-start, $green-end 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Date info design */
+.date-info {
+  padding-left: 0;
+  color: $black;
+  font-size: 13px;
+  i {
+    padding-right: 10px;
+  }
+}
+
+
+/* Section design */
+.section {
+  margin-bottom: 100px;
+  .sub_text {
+    max-width: 780px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: $sub-text-color;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .section-button {
+    text-align: center;
+  }
+}
+
+.btn {
+  padding: 10px 40px;
+  background-color: rgba(21, 26, 33, .9);
+  color: $white;
+  &:hover {
+    color: $white;
+  }
+  &.btn-trans {
+    padding: 10px 40px;
+    border: 2px solid $white;
+    background-color: transparent;
+    color: $white;
+  }
+  &.btn-white {
+    padding: 10px 40px;
+    border: 2px solid $white;
+    background-color: #FBF6F0;
+    color: $white;
+  }
+}
+
+
+/* module-banner section */
+.module-banner {
+  margin-bottom: 100px;
+  .section_werden {
+    padding: 45px;
+    .werden_text {
+      max-width: 655px;
+      margin-bottom: 40px;
+      color: $white;
+      font-weight: bold;
+    }
+    a {
+      border: 2px solid $white;
+      border-radius: 5px;
+      color: $white;
+      font-weight: bold;
+    }
+  }
+}
+
+/* section upper */
+.section_upper {
+  margin-bottom: 70px;
+  font-weight: bold;
+  text-align: center;
+}

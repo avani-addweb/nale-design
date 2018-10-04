@@ -1,0 +1,60 @@
+/**
+ * Banner Design
+ */
+
+.banner-section {
+  position: relative;
+  display: flex;
+  height: 690px;
+  background-image: url('../assets/images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  .banner-caption {
+    width: 800px;
+    margin: 0 auto;
+    .section-button {
+      a {
+        color: $white;
+        font-weight: bold;
+      }
+    }
+    .description {
+      color: $white;
+    }
+  }
+  .anchor-section {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    nav {
+      ul {
+        display: flex;
+        padding-left: 0;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        li {
+          a {
+            padding: 0 15px;
+            border-right: 2px solid $white;
+            color: $white;
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 600;
+          }
+          &:last-child {
+            a {
+              border-right: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

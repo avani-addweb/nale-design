@@ -1,0 +1,64 @@
+/**
+ * Home page
+ */
+
+
+
+ /*das section*/
+.commitment {
+  .main-title {
+    max-width: 777px;
+  }
+  .number-title {
+    font-size: 72px;
+  }
+  p {
+    color: $grey-dark;
+  }
+}
+
+.nachhaltiges {
+  .bg-img {
+    padding: 30px;
+    background-image: url('https://via.placeholder.com/340x200');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ul {
+      display: flex;
+      margin-top: 40px;
+      padding-left: 0;
+      list-style: none;
+      justify-content: space-around;
+      li {
+        width: 25%;
+        border-right: 1px solid grey;
+        &:last-child {
+          border-right: none;
+        }
+        a {
+          img {
+            margin-bottom: 5px;
+            padding: 20px 10px 0px;
+            border-radius: 50%;
+            background-color: grey;
+            &:hover {
+              background-color: $orange;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+/* our partner */
+.partner {
+  .partner-title {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}

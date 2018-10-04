@@ -1,0 +1,71 @@
+/**
+ * Footer Design
+ */
+
+.footer {
+  padding: 4rem 0;
+  background-color: #2E3338;
+  .footer_first {
+    color: $white;
+    font-style: italic;
+    p {
+      color: $white;
+      font-weight: bold;
+    }
+   }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    ul {
+      display: flex;
+      padding-left: 0;
+      list-style: none;
+      flex-wrap: wrap;
+      li {
+        flex: 0 1 25%;
+        a {
+          color: #B1AEAC;
+        }
+      }
+    }
+  }
+  hr {
+    margin: 2rem auto 3rem;
+    border-top: 1px solid #B1AEAC;
+  }
+  .newsletter-social-row {
+    display: flex;
+    justify-content: space-between;
+    .newsletter-section {
+      .title {
+        color: $white;
+        font-weight: bold;
+      }
+      .form-group {
+        margin-left: 0 !important;
+        .form-control {
+          border: 1px solid #B1AEAC;
+        }
+      }
+    }
+    .social-section {
+      .title {
+        color: $white;
+        font-weight: bold;
+      }
+      ul {
+        flex-direction: row;
+        justify-content: space-around;
+        li {
+          a {
+            padding: 0;
+            i {
+              color: $white;
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
