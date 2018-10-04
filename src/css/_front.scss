@@ -10,7 +10,9 @@
     max-width: 777px;
   }
   .number-title {
-    font-size: 72px;
+    font-size: 80px;
+    line-height: 80px;
+    font-family: Averta-Light;
   }
   p {
     color: $grey-dark;
@@ -32,7 +34,7 @@
       justify-content: space-around;
       li {
         width: 25%;
-        border-right: 1px solid grey;
+        border-right: 1px solid rgba(21, 26, 33, .2);
         &:last-child {
           border-right: none;
         }
@@ -41,10 +43,15 @@
             margin-bottom: 5px;
             padding: 20px 10px 0;
             border-radius: 50%;
-            background-color: grey;
+            background-color: rgba(21, 26, 33, .3);
             &:hover {
               background-color: $orange;
             }
+          }
+          p {
+            padding-top: 5px;
+            font-size: 12px;
+            line-height: 16px;
           }
         }
       }
@@ -58,7 +65,6 @@
 .partner {
   .partner-title {
     margin-bottom: 40px;
-    font-size: 24px;
     font-weight: bold;
   }
 }

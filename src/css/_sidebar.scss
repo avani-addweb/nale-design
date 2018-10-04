@@ -5,7 +5,7 @@
     width: 100%;
     margin-top: 15px;
     padding: 20px 0;
-    border-top: 1px solid;
+    border-top: 1px solid rgba(21, 26, 33, .2);
     flex-direction: column;
 
     .sidebar-title {
@@ -13,7 +13,7 @@
       font-weight: 800;
     }
     &:last-child {
-      border-bottom: 1px solid;
+      border-bottom: 1px solid rgba(21, 26, 33, .2);
     }
   }
 

@@ -127,10 +127,13 @@
             display: none;
             width: 100%;
             padding: 2rem;
-            border-top: 2px solid rgb(255, 100, 12);
+            border-top: 2px solid;
             background-color: $white;
             &.border-orange {
               border-color: $orange-border;
+            }
+            &.border-pink {
+              border-color: $pink-border;
             }
           }
           &:hover {
