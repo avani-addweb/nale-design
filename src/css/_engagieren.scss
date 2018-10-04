@@ -1,0 +1,16 @@
+/*
+* - engagieren design
+*/
+
+.number-round {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding-top: 5px;
+  border: 3px solid #3EC8AC;
+  border-radius: 100%;
+  font-weight: bold;
+  text-align: center;
+
+  @extend .text-gradient-green;
+}

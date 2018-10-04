@@ -3,8 +3,8 @@
  */
 
 body {
-   background-color: $body-bg;
-  font-family: $Averta-regular;
+  background-color: $body-bg;
+  font-family: $averta-regular;
 }
 .sm-container {
   max-width: 970px; /*container-width is 940px + 30px padding*/
@@ -51,5 +51,8 @@ body {
 
 .pd-b-50 {
   padding-bottom: 50px;
+}
+.mb-15 {
+  padding-bottom: 15px;
 }
 
