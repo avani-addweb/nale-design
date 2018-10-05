@@ -25,6 +25,10 @@
   @include background-horizontal($green-start, $green-end);
 }
 
+.bg-yellow-gradient {
+  @include background-horizontal($yellow-start, $yellow-end);
+}
+
 .bg_no {
   background: none;
 }
@@ -143,4 +147,21 @@
   margin-bottom: 70px;
   font-weight: bold;
   text-align: center;
+}
+
+.card-preview-pretitle {
+  margin-top: 80px;
+  font-weight: 800;
+  color: $theme-font-color !important; 
+}
+
+.card-preview-cardlink {
+  left: 0; 
+}
+
+
+.card-preview-cardtitle {
+  max-width: 365px;
+  margin: 0 auto;
+  font-weight: 100;
 }
