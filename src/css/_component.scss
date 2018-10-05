@@ -75,7 +75,13 @@
   }
 }
 
-
+.image-wrapper {
+  display: inline-block;
+  padding-top: 16px;
+  height: 50px;
+  width: 50px;
+  background-color: $body-color;
+}
 /* Section design */
 .section {
   margin-bottom: 100px;
@@ -83,7 +89,7 @@
     max-width: 780px;
     margin: 0 auto;
     margin-bottom: 30px;
-    color: $sub-text-color;
+    color: $body-color;
     font-size: 24px;
     line-height: 32px;
     font-weight: 300;
@@ -102,19 +108,15 @@
     color: $white;
   }
   &.btn-trans {
-    padding: 10px 40px;
     border: 2px solid $white;
     background-color: transparent;
-    color: $white;
   }
   &.btn-white {
-    padding: 10px 40px;
     border: 2px solid $white;
     background-color: #FBF6F0;
     color: $theme-font-color;
   }
   &.btn-black {
-    padding: 10px 40px;
     border: 2px solid $black;
     background-color: transparent;
     color: $black;

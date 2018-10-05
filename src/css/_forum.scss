@@ -1,0 +1,28 @@
+/*
+* forum page design
+*/
+
+
+/* subpage2 design */
+
+.group {
+  text-align: center;
+  &.member-main {
+    margin: 0 10px;
+    max-width: 210px;
+  }
+  .image-wrapper-member {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding-top: 25px;
+    height: 90px;
+    width: 90px;
+    background-color: rgba(21,26,33,0.1);
+    border-radius: 100%;
+    text-align: center;
+  }
+  .designation {
+    font-size: 13px;
+  }
+}
+

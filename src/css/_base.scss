@@ -5,6 +5,10 @@
 body {
   background-color: $body-bg;
   font-family: $averta-regular;
+  
+  img {
+    max-width: 100%;
+  }
 }
 .sm-container {
   max-width: 970px; /*container-width is 940px + 30px padding*/
@@ -18,12 +22,20 @@ body {
   margin: 0 auto;
 }
 
+.mw-475 {
+  max-width: 475px;
+}
+
 .d_flex {
   @include css3-sufix(display, flex);
 }
 
 .align-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .border_bm {
@@ -54,20 +66,27 @@ body {
 }
 
 .pd-b-50 {
-  padding-bottom: 50px;
+  padding-bottom: 50px !important;
 }
 .pb-15 {
-  padding-bottom: 15px;
+  padding-bottom: 15px !important;
 }
 
 .mb-20 {
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 
 .mb-30 {
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
 }
 
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+
+.mt-100 {
+  margin-top: 100px !important;
+}
 .mt-60 {
   margin-top: 60px !important;
 }

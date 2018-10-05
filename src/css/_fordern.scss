@@ -4,20 +4,45 @@
 
  .award {
     .platforma-image {
-      height: 100%;
       width: 375px;
       img {
-        width: 375px;
+        width: 100%;
     }
   }
 }
 
  .winners {
     .winners-image {
-      height: 100%;
       width: 375px;
         img {
-          width: 375px;
+          width: 100%;
       }
     }
  }
+
+.year-tab-section {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      margin-bottom: 20px;
+      a {
+        display: inline-block;
+        margin: 0 10px;
+        padding: 12px 10px;
+        min-width: 130px;
+        border: 2px solid gray;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
