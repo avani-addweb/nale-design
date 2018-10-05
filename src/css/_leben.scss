@@ -22,3 +22,53 @@
   }
 }
 
+/* shivani's design */
+#subheader {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 15px;
+  .right-left-header {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #B1AEAC;
+  }
+  .leben-project {
+    float: left;
+    display: inline-block;
+  }
+  a {
+    float: right;
+    display: inline-block;
+  }
+}
+
+#img-grid {
+  display: inline-block;
+  width: 100%;
+  .img-grid-left {
+    h3 {
+      font-size: 36px;
+      height: 141.75px;
+      width: 294px;
+      color: rgba(21,26,33,0.9);
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 36px;
+    }
+    .global {
+      height: 47px;
+      width: 262px;
+      color: rgba(21,26,33,0.7);
+      font-size: 13px;
+      letter-spacing: 0.5px;
+    }
+  }
+  .img-grid-center {
+    height: 173.42px;
+    width: 295px;
+    color: rgba(21,26,33,0.7);
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
