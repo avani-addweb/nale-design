@@ -46,10 +46,10 @@
             background-color: $orange;
           }
         }
-          p {
-            padding-top: 5px;
-            font-size: 12px;
-            line-height: 16px;
+        p {
+          padding-top: 5px;
+          font-size: 12px;
+          line-height: 16px;
         }
       }
     }
@@ -77,20 +77,34 @@
   }
 }
 
+#select-dropdown {
+  .search {
+    span {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+
 #img-grid {
   display: inline-block;
   width: 100%;
   .img-grid-wrap {
-    border-bottom: 1px solid #B1AEAC;
     margin: 10px;
+    border-bottom: 1px solid #B1AEAC;
+    .wrap {
+      padding: 0 0 20px;
+    }
   }
   .img-grid-left {
     h3 {
       font-weight: 800;
     }
     .global {
-      height: 47px;
-      width: 262px;
+      position: absolute;
+      bottom: 0;
+      display: block;
+      margin-bottom: 0;
       color: rgba(21 , 26 , 33 , .7);
       font-size: 13px;
       letter-spacing: .5px;
@@ -106,4 +120,7 @@
   .img-grid-right {
     float: right;
   }
+}
+.section-button {
+  padding: 50px 0;
 }
