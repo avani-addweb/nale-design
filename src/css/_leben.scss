@@ -78,10 +78,25 @@
 }
 
 #select-dropdown {
-  .search {
+  .drop-down-wrap {
+    padding: 10px;
+    border-bottom: 1px solid #B1AEAC;
     span {
       display: inline-block;
       width: 100%;
+    }
+    .search-box,
+    .left-dropdown,
+    .center-dropdown {
+      display: inline-block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 5px;
+      border-radius: 4px;
+    }
+    .left-dropdown,
+    .center-dropdown {
+      padding: 10px;
     }
   }
 }
