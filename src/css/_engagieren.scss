@@ -14,3 +14,12 @@
 
   @extend .text-gradient-green;
 }
+
+.section {
+  ul {
+    margin-top: 0;
+    li {
+      margin-bottom: 15px;
+    }
+  }
+} 
