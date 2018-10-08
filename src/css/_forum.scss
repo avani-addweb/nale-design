@@ -8,17 +8,17 @@
 .group {
   text-align: center;
   &.member-main {
-    margin: 0 10px;
     max-width: 210px;
+    margin: 0 10px;
   }
   .image-wrapper-member {
     display: inline-block;
-    margin-bottom: 15px;
-    padding-top: 25px;
     height: 90px;
     width: 90px;
-    background-color: rgba(21,26,33,0.1);
+    margin-bottom: 15px;
+    padding-top: 25px;
     border-radius: 100%;
+    background-color: rgba(21, 26, 33, .1);
     text-align: center;
   }
   .designation {

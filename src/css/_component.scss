@@ -77,9 +77,9 @@
 
 .image-wrapper {
   display: inline-block;
-  padding-top: 16px;
   height: 50px;
   width: 50px;
+  padding-top: 16px;
   background-color: $body-color;
 }
 /* Section design */
@@ -153,12 +153,12 @@
 
 .card-preview-pretitle {
   margin-top: 80px;
+  color: $theme-font-color !important;
   font-weight: 800;
-  color: $theme-font-color !important; 
 }
 
 .card-preview-cardlink {
-  left: 0; 
+  left: 0;
 }
 
 

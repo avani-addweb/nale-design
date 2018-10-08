@@ -41,11 +41,11 @@
         a {
           .image-wrapper {
             display: inline-block;
-            padding-top: 16px;
             height: 50px;
             width: 50px;
-            background-color: $body-color;
+            padding-top: 16px;
             border-radius: 100%;
+            background-color: $body-color;
             &:hover {
               background-color: $orange;
             }

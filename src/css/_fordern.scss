@@ -2,43 +2,43 @@
  * - fordern page design
  */
 
- .award {
-    .platforma-image {
-      width: 375px;
-      img {
-        width: 100%;
+.award {
+  .platforma-image {
+    width: 375px;
+    img {
+      width: 100%;
     }
   }
 }
 
- .winners {
-    .winners-image {
-      width: 375px;
-        img {
-          width: 100%;
-      }
+.winners {
+  .winners-image {
+    width: 375px;
+    img {
+      width: 100%;
     }
- }
+  }
+}
 
 .year-tab-section {
   ul {
     display: flex;
-    flex-wrap: wrap;
     padding-left: 0;
     list-style: none;
+    flex-wrap: wrap;
     li {
       display: inline-block;
       margin-bottom: 20px;
       a {
         display: inline-block;
+        min-width: 130px;
         margin: 0 10px;
         padding: 12px 10px;
-        min-width: 130px;
         border: 2px solid gray;
         border-radius: 4px;
         font-size: 16px;
-        font-weight: 600;
         line-height: 20px;
+        font-weight: 600;
         text-align: center;
       }
     }
