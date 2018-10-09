@@ -16,6 +16,23 @@ body {
   padding-left: 15px;
 }
 
+.w-auto {
+  width: auto;
+}
+.w-100 {
+  display: inline-block;
+  width: 100%;
+}
+
+.no_border {
+  border: none !important;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+
 .mw-610 {
   max-width: 610px;
   width: 100%;

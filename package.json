@@ -35,7 +35,7 @@
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^3.3.7",
     "gulp-scss-lint": "^0.7.1",
     "jquery": "^3.3.1",
     "jquery-match-height": "0.7.2",
