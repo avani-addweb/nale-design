@@ -2,7 +2,18 @@
  * leben page
  */
 
-
+/* banner section */
+.banner-section {
+  .banner-img {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .banner-links {
+    padding: 0 15px;
+  }
+}
 /*highlight section*/
 
 /*highlight section end*/
@@ -138,8 +149,8 @@
 }
 
 .next_prev {
-  border-bottom: 1px solid $body-color;
   padding-bottom: 10px;
+  border-bottom: 1px solid $body-color;
 }
 
 .leben-list {
@@ -172,6 +183,6 @@
 }
 
 .border-bm {
-  border-bottom: 1px solid $body-color;
   padding-bottom: 20px;
+  border-bottom: 1px solid $body-color;
 }
