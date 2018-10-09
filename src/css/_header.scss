@@ -191,6 +191,7 @@
                   padding-left: 0;
                   border-right: none;
                   justify-content: space-between;
+                  align-items: center;
                   @media (max-width: 767px) {
                     padding-right: 0;
                     flex-direction: column;
