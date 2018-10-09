@@ -32,9 +32,15 @@
       padding-left: 0;
       list-style: none;
       justify-content: space-around;
+      @media (max-width: 767px) {
+        flex-wrap: wrap;
+      }
       li {
         width: 25%;
         border-right: 1px solid rgba(21, 26, 33, .2);
+        @media (max-width: 767px) {
+          width: 50%;
+        }
         &:last-child {
           border-right: none;
         }

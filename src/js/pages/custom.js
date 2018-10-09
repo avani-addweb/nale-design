@@ -18,13 +18,12 @@ $(".banner-section .anchor-section nav ul li a").click(function() {
    
 });
 
-$(document).ready(function(){
-  $(".header .menu_section nav ul li .mega-menu .column ul li").mouseover(function(){          
-    $(".header .menu_section nav ul li .mega-menu .column ul li").removeClass("active");
-    $(this).addClass("active");          
-  });
-  $(".header .menu_section nav ul li.position-inherit").hover(function(){
-  	$(".header .menu_section nav ul li .mega-menu .column ul li").removeClass("active");
-    $(this).find(".mega-menu .column ul li:first-child").addClass("active");
-  });
+
+$(".header .menu_section nav ul li .mega-menu .column ul li").mouseover(function(){          
+  $(".header .menu_section nav ul li .mega-menu .column ul li").removeClass("active");
+  $(this).addClass("active");          
+});
+$(".header .menu_section nav ul li.position-inherit").hover(function(){
+	$(".header .menu_section nav ul li .mega-menu .column ul li").removeClass("active");
+  $(this).find(".mega-menu .column ul li:first-child").addClass("active");
 });

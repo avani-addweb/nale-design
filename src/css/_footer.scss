@@ -21,6 +21,9 @@
       padding-left: 0;
       list-style: none;
       flex-wrap: wrap;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
       li {
         flex: 0 1 25%;
         a {
@@ -45,6 +48,9 @@
             margin: 0;
           }
         }
+      }
+      @media (max-width: 767px){
+        width: 100%;
       }
       .title {
         color: $white;
