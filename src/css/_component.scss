@@ -47,10 +47,13 @@
 }
 
 .text-orange {
-  color: $orange;
+  color: $orange !important;
 }
 .text-green {
   color: $green;
+}
+.text-pink {
+  color: $pink !important;
 }
 
 .text-gray-7 {
