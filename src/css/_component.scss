@@ -204,4 +204,45 @@
       background-color: transparent;
     }
   }
+}
+
+.info-sitebar {
+  .info-sitebar-image {
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+    border: 1px solid $body-color;
+    border-radius: 4px;
+    background-color: $white;
+  }
+  .info-title {
+    margin-bottom: 15px;
+    padding: 20px 10px;
+    border: 1px solid $body-color;
+    border-radius: 4px;
+    background-color: $white;
+    ul {
+      padding: 0;
+      list-style: none;
+      li {
+        padding-bottom: 15px;
+        font-size: 16px;
+        &:last-child {
+          margin-top: 20px;
+          padding: 0;
+        }
+        &.active {
+          color: #151A21;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .info-map {
+    height: 276px;
+    padding-top: 1px;
+    border: 1px solid $body-color;
+    border-radius: 4px;
+    background-color: $white;
+  }
+}
 

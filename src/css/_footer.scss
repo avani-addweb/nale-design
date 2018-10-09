@@ -64,6 +64,7 @@
       }
     }
     .social-section {
+      text-align: center;
       .nav-link {
         margin: 0 10px;
       }
@@ -72,6 +73,8 @@
         font-weight: bold;
       }
       ul {
+        list-style: none;
+        padding: 0;
         flex-direction: row;
         justify-content: space-around;
         li {

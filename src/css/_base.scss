@@ -17,8 +17,9 @@ body {
 }
 
 .w-auto {
-  width: auto;
+  width: auto !important;
 }
+
 .w-100 {
   display: inline-block;
   width: 100%;
