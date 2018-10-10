@@ -38,7 +38,9 @@
     }
   }
   .card-footer {
+    padding: .75rem 1.25rem;
     background-color: $body-bg;
+    border-top: 1px solid rgba(0, 0, 0, .125);
     text-align: left;
     a {
       padding-left: 0;
