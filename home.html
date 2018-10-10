@@ -12,19 +12,27 @@
 <body>
 
 <section class="header">
-   <div class="container-fluid site_title_section">
-      <div class="col-md-4 header_first">
+   <div class="site_title_section" id="mainmenu">
+      <div class="col-md-3 header_first">
          forum
-         <p>nachhaltiges leipzig</p >
+         <p>nachhaltiges&nbsp;leipzig</p >
       </div>
-      <div class="col-md-4 text-center"><a href="home.html"><img src="src/assets/images/Logo-green.png" /></a></div>
-      <div class="col-md-4 header_search_icon text-right">
-        <form id="demo-2">
+      <div class="col-md-3 header_logo text-center">
+        <a href="home.html">
+          <img src="src/assets/images/Logo-green.png" class="img-logo" />
+        </a>
+      </div>
+      <div class="col-md-3 header_search_icon text-right">
+        <form class="form-search">
           <input type="search" placeholder="Search">
         </form>
+        <!-- <img src="build/assets/images/search.png" class="img-search"> -->
+      </div>
+      <div class="col-md-3 header_hemburger_icon text-right">
+        <img src="build/assets/images/hemburger.png" class="img-hemburger">
       </div>
    </div>
-   <div class="menu_section" id="mainmenu">
+   <div class="menu_section" id="submenu">
       <nav>
          <ul>
             <li><a href="#"><img src="src/assets/images/Logo-green.png" class="img-small float-right" /></a></li>

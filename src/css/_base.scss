@@ -120,3 +120,8 @@ body {
 .mt-60 {
   margin-top: 60px !important;
 }
+
+.row {
+  @include css3-sufix(display, flex);
+  flex-wrap: wrap;
+}

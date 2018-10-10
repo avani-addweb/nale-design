@@ -39,8 +39,8 @@
   }
   .card-footer {
     padding: .75rem 1.25rem;
-    background-color: $body-bg;
     border-top: 1px solid rgba(0, 0, 0, .125);
+    background-color: $body-bg;
     text-align: left;
     a {
       padding-left: 0;
@@ -57,7 +57,9 @@
       padding-bottom: 30px;
     }
     .card-title {
-      margin-bottom: 100px;
+      /*margin-bottom: 100px;*/
+      height: 170px;
+      text-transform: none;
     }
     .card-link {
       position: absolute;
