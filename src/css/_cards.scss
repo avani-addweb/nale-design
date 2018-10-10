@@ -29,7 +29,8 @@
     .card-title {
       margin-top: 25px;
       font-weight: bold;
-      word-break: break-all;
+      /*word-break: break-all;*/
+      width: 255px;
     }
     .card-link {
       color: $theme-font-color;
