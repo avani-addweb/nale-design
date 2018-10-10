@@ -4,6 +4,7 @@
 
 body {
   background-color: $body-bg;
+  font-size: 16px;
   font-family: $averta-regular;
   img {
     max-width: 100%;
@@ -129,3 +130,33 @@ body {
 .justify-content-center {
   justify-content: center !important;
 }
+
+
+.brand-label {
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  margin: 15px 0;
+  background-image: url('../assets/images/Logo-green.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '';
+}
+.nale-orange {
+  .brand-label {
+    background-image: url('../assets/images/orange.png');
+  }
+}
+
+.nale-pink {
+  .brand-label {
+    background-image: url('../assets/images/pink.png');
+  }
+}
+
+.nale-blue {
+  .brand-label {
+    background-image: url('../assets/images/blue.png');
+  }
+}
+
