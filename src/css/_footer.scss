@@ -78,9 +78,9 @@
         margin: 0 10px;
       }
       .title {
+        margin-bottom: 10px;
         color: $white;
         font-weight: bold;
-        margin-bottom: 10px;
         @media (max-width: 767px) {
           margin-top: 15px;
           margin-bottom: 15px;
@@ -88,9 +88,9 @@
       }
       ul {
         padding-left: 0;
+        list-style: none;
         flex-direction: row;
         justify-content: space-around;
-        list-style: none;
         /*padding: 0;*/
         @media (max-width: 767px){
           display: flex;

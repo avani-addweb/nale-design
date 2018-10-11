@@ -192,8 +192,8 @@
             text-decoration: none;
             @media (max-width: 767px) {
               display: inline-block;
-              padding-left: 10px;
               padding-right: 10px;
+              padding-left: 10px;
             }
             &.active {
               text-decoration: underline;
@@ -215,10 +215,10 @@
           .caret {
             display: none;
             @media (max-width: 767px) {
-              display: block;
               position: absolute;
-              right: 15px;
               top: 15px;
+              right: 15px;
+              display: block;
               &.bottom {
                 transform: rotateZ(-180deg);
               }
