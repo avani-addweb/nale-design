@@ -71,12 +71,14 @@
 #subheader {
   display: inline-block;
   width: 100%;
-  padding-bottom: 15px;
+  padding-bottom: 0;
   .right-left-header {
-    display: inline-block;
+    display: flex;
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #B1AEAC;
+    justify-content: space-between;
+    align-items: flex-end;
   }
   .leben-project {
     float: left;
@@ -90,11 +92,17 @@
 
 #select-dropdown {
   .drop-down-wrap {
-    padding: 10px;
-    border-bottom: 1px solid #B1AEAC;
+    padding: 30px 0;
+    border-bottom: 0 solid #B1AEAC;
     span {
       display: inline-block;
       width: 100%;
+    }
+    .search-box {
+      background-image: url('../assets/images/search.png');
+      background-position: center right 10px;
+      background-repeat: no-repeat;
+      background-size: 16px;
     }
     .search-box,
     .left-dropdown,
@@ -102,7 +110,7 @@
       display: inline-block;
       width: 100%;
       margin: 10px 0;
-      padding: 5px;
+      padding: 7px;
       border-radius: 4px;
     }
     .left-dropdown,
@@ -115,15 +123,21 @@
 #img-grid {
   display: inline-block;
   width: 100%;
+  &:first-child {
+    .img-grid-wrap {
+      border-top: 1px solid #B1AEAC;
+    }
+  }
   .img-grid-wrap {
-    margin: 10px;
+    margin: 10px auto;
     border-bottom: 1px solid #B1AEAC;
     .wrap {
-      padding: 0 0 20px;
+      padding: 0 0 28px;
     }
   }
   .img-grid-left {
     h3 {
+      margin-top: 0;
       font-weight: 800;
     }
     .global {
@@ -150,7 +164,7 @@
 
 .next_prev {
   padding-bottom: 10px;
-  border-bottom: 1px solid $body-color;
+  border-bottom: 1px solid rgba(21,26,33,0.2);
 }
 
 .leben-list {
@@ -162,21 +176,21 @@
   .info-sitebar-image {
     margin-bottom: 15px;
     padding-bottom: 1px;
-    border: 1px solid $body-color;
+    border: 1px solid rgba(21,26,33,0.2);
     border-radius: 4px;
     background-color: $white;
   }
   .info-title {
     margin-bottom: 15px;
     padding: 20px 10px;
-    border: 1px solid $body-color;
+    border: 1px solid rgba(21,26,33,0.2);
     border-radius: 4px;
     background-color: $white;
   }
   .info-map {
     height: 276px;
     padding-top: 1px;
-    border: 1px solid $body-color;
+    border: 1px solid rgba(21,26,33,0.2);
     border-radius: 4px;
     background-color: $white;
   }
@@ -184,5 +198,5 @@
 
 .border-bm {
   padding-bottom: 20px;
-  border-bottom: 1px solid $body-color;
+  border-bottom: 1px solid rgba(21,26,33,0.2);
 }
