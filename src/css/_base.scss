@@ -139,6 +139,9 @@ body {
 .justify-content-center {
   justify-content: center !important;
 }
+.flex-column-reverse {
+  flex-direction: column-reverse !important;
+}
 
 
 .brand-label {
@@ -152,7 +155,11 @@ body {
   background-size: contain;
   content: '';
   &.img-small {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
     background-image: url('../assets/images/logo_engagieren_sm.svg');
+    background-size: cover;
   }
 }
 .nale-orange {

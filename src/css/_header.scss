@@ -107,7 +107,12 @@
         display: block;
       }
     }
-    .img-logo,
+    .img-logo {
+      @media (max-width: 767px) {
+        width: 25px;
+        background-size: 95px;
+      }
+    }
     .img-search,
     .img-hemburger {
       @media (max-width: 767px) {
@@ -140,6 +145,7 @@
           li {
             &:first-child {
               display: block;
+              text-align: right;
             }
             &:last-child {
               display: block;

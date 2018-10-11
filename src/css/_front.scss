@@ -48,6 +48,10 @@
           border-right: none;
         }
         a {
+          color: rgba(21, 26, 33, .5);
+          font-size: 12px;
+          line-height: 16px;
+          font-weight: 600;
           + .menu_link_content {
             .field--name-field-active-image {
               display: none;
@@ -78,6 +82,13 @@
             padding-top: 5px;
             font-size: 12px;
             line-height: 16px;
+          }
+        }
+        .field {
+          img {
+            width: 66.67px;
+            margin: 0 auto 10px;
+            border-radius: 100%;
           }
         }
       }
