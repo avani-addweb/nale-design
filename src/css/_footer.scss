@@ -9,6 +9,10 @@
     @media (max-width: 767px) {
       flex-direction: column;
     }
+    #edit-subscriptions-wrapper,
+    #edit-message {
+      display: none;
+    }
   }
   .footer-logo {
     width: 211px;
@@ -111,6 +115,9 @@
             i {
               color: $white;
               font-size: 24px;
+            }
+            svg {
+              fill: $white;
             }
           }
           &:first-child {

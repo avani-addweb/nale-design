@@ -114,6 +114,10 @@ body {
   margin-bottom: 60px !important;
 }
 
+.mt-8 {
+  margin-top: 8px !important;
+}
+
 .mt-80 {
   margin-top: 80px !important;
 }
@@ -145,22 +149,79 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   content: '';
+  &.img-small {
+    background-image: url('../assets/images/logo_engagieren_sm.svg');
+  }
 }
 .nale-orange {
   .brand-label {
     background-image: url('../assets/images/orange.png');
+    &.img-small {
+      background-image: url('../assets/images/orange-small.png');
+    }
   }
 }
 
 .nale-pink {
   .brand-label {
     background-image: url('../assets/images/pink.png');
+    &.img-small {
+      background-image: url('../assets/images/pink-small.png');
+    }
   }
 }
 
 .nale-blue {
   .brand-label {
     background-image: url('../assets/images/blue.png');
+    &.img-small {
+      background-image: url('../assets/images/blue-small.png');
+    }
+  }
+}
+
+.nale-leben {
+  .brand-label {
+    background-image: url('../assets/images/logo_leben_xl.svg');
+    &.img-small {
+      background-image: url('../assets/images/logo_leben_sm.svg');
+    }
+  }
+}
+
+.nale-themen {
+  .brand-label {
+    background-image: url('../assets/images/logo_themen_xl.svg');
+    &.img-small {
+      background-image: url('../assets/images/logo_themen_sm.svg');
+    }
+  }
+}
+
+.nale-engagieren {
+  .brand-label {
+    background-image: url('../assets/images/logo_engagieren_xl.svg');
+    &.img-small {
+      background-image: url('../assets/images/logo_engagieren_sm.svg');
+    }
+  }
+}
+
+.nale-fordern {
+  .brand-label {
+    background-image: url('../assets/images/logo_fordern_xl.svg');
+    &.img-small {
+      background-image: url('../assets/images/logo_fordern_sm.svg');
+    }
+  }
+}
+
+.nale-forum {
+  .brand-label {
+    background-image: url('../assets/images/logo_forum_xl.svg');
+    &.img-small {
+      background-image: url('../assets/images/logo_forum_sm.svg');
+    }
   }
 }
 
