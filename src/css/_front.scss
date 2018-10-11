@@ -48,6 +48,21 @@
           border-right: none;
         }
         a {
+          + .menu_link_content {
+            .field--name-field-active-image {
+              display: none;
+            }  
+          }
+          &.is-active {
+            + .menu_link_content {
+              .field--name-field-active-image {
+                display: block;
+              }
+              .field--name-field-inactive-image {
+                display: none;
+              } 
+            }
+          }
           .image-wrapper {
             display: inline-block;
             height: 50px;
