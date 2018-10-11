@@ -51,7 +51,7 @@
           + .menu_link_content {
             .field--name-field-active-image {
               display: none;
-            }  
+            }
           }
           &.is-active {
             + .menu_link_content {
@@ -60,7 +60,7 @@
               }
               .field--name-field-inactive-image {
                 display: none;
-              } 
+              }
             }
           }
           .image-wrapper {
