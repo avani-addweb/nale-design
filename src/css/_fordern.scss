@@ -4,18 +4,36 @@
 
 .award {
   .platforma-image {
-    width: 375px;
-    img {
-      width: 100%;
+    max-width: 375px;
+    width: 100%;
+    height: 550px;
+    background-image: url('../assets/images/kyle-ellefson-196125-unsplash.jpg');
+    background-size: cover;
+    @media (max-width: 767px) {
+      margin: auto;
+    }
+  }
+  .award-text {
+    @media (max-width: 991px) {
+      padding-left: 0 !important;
     }
   }
 }
 
 .winners {
   .winners-image {
-    width: 375px;
+    max-width: 375px;
+    width: 100%;
+    @media (max-width: 767px) {
+      margin: 0 auto 20px;
+    }
     img {
       width: 100%;
+    }
+  }
+  .winners-text {
+    @media (max-width: 991px) {
+      padding-left: 0 !important;
     }
   }
 }
@@ -26,6 +44,9 @@
     padding-left: 0;
     list-style: none;
     flex-wrap: wrap;
+    @media (max-width: 991px) {
+      justify-content: center;
+    }
     li {
       display: inline-block;
       margin-bottom: 20px;
