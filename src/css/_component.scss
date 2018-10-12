@@ -9,10 +9,11 @@
 
 
 /* Bg color */
-/*.bg-orange-gradient {
+.bg-orange-gradient {
   @include background-horizontal($orange-start, $orange-end);
 }
 
+/*
 .bg-purple-gradient {
   @include background-horizontal($purple-start, $purple-end);
 }
