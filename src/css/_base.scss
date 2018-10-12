@@ -178,7 +178,19 @@ body {
     background-size: cover;
   }
 }
-.nale-orange {
+section {
+  .card-section {
+    .card-section-title {
+      color: $green;
+    }
+  }
+}
+.module-banner {
+  .section_werden {
+    @include background-horizontal($green-start, $green-end);
+  }
+}
+/*.nale-orange {
   .brand-label {
     background-image: url('../assets/images/orange.png');
     &.img-small {
@@ -209,7 +221,7 @@ body {
       background-image: url('../assets/images/blue-small.png');
     }
   }
-}
+}*/
 
 .nale-leben {
   .brand-label {
@@ -223,6 +235,11 @@ body {
       .card-section-title {
         color: $orange;
       }
+    }
+  }
+  .module-banner {
+    .section_werden {
+      @include background-horizontal($orange-start, $orange-end);
     }
   }
 }
@@ -241,6 +258,11 @@ body {
       }
     }
   }
+  .module-banner {
+    .section_werden {
+      @include background-horizontal($purple-start, $purple-end);
+    }
+  }
 }
 
 .nale-engagieren {
@@ -248,6 +270,18 @@ body {
     background-image: url('../assets/images/logo_engagieren_xl.svg');
     &.img-small {
       background-image: url('../assets/images/logo_engagieren_sm.svg');
+    }
+  }
+  section {
+    .card-section {
+      .card-section-title {
+        color: $green;
+      }
+    }
+  }
+  .module-banner {
+    .section_werden {
+      @include background-horizontal($green-start, $green-end);
     }
   }
 }
@@ -259,6 +293,18 @@ body {
       background-image: url('../assets/images/logo_foerdern_sm.svg');
     }
   }
+  section {
+    .card-section {
+      .card-section-title {
+        color: $yellow;
+      }
+    }
+  }
+  .module-banner {
+    .section_werden {
+      @include background-horizontal($yellow-start, $yellow-end);
+    }
+  }
 }
 
 .nale-forum {
@@ -268,5 +314,16 @@ body {
       background-image: url('../assets/images/logo_forum_sm.svg');
     }
   }
+  section {
+    .card-section {
+      .card-section-title {
+        color: $blue;
+      }
+    }
+  }
+  .module-banner {
+    .section_werden {
+      @include background-horizontal($blue-start, $blue-end);
+    }
+  }
 }
-

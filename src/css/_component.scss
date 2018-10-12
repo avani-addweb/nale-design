@@ -9,7 +9,7 @@
 
 
 /* Bg color */
-.bg-orange-gradient {
+/*.bg-orange-gradient {
   @include background-horizontal($orange-start, $orange-end);
 }
 
@@ -27,7 +27,7 @@
 
 .bg-yellow-gradient {
   @include background-horizontal($yellow-start, $yellow-end);
-}
+}*/
 
 .bg_no {
   background: none;
@@ -85,8 +85,8 @@
   display: inline-block;
   height: 50px;
   width: 50px;
-  padding-top: 16px;
-  background-color: $body-color;
+  /*padding-top: 16px;*/
+  /*background-color: $body-color;*/
 }
 /* Section design */
 .section {
