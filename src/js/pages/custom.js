@@ -1,8 +1,8 @@
 window.onscroll = function() {
-  if($( window ).width() > 767) {
+  if(jQuery( window ).width() > 767) {
     subFunction()
   }
-  if($( window ).width() <= 767) {
+  if(jQuery( window ).width() <= 767) {
     mainFunction()
   }
 };
