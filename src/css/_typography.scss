@@ -66,7 +66,9 @@ a {
 }
 .section_title {
   margin-bottom: 45px;
-  font-weight: 800;
+  /*font-weight: 800;*/
+  font-family: Averta-bold;
+  letter-spacing: -.2px;
 }
 .banner-title {
   margin-bottom: 30px;
@@ -76,7 +78,7 @@ a {
 
 .card-section-title {
   display: flex;
-  color: $card-title-color;
+  /*color: $card-title-color;*/
   font-weight: bold;
   align-items: center;
   i {

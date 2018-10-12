@@ -26,6 +26,10 @@ body {
   width: 100%;
 }
 
+.h-400 {
+  height: 400px;
+}
+
 .no_border {
   border: none !important;
 }
@@ -181,6 +185,9 @@ body {
       background-image: url('../assets/images/orange-small.png');
     }
   }
+  .card-section-title {
+    color: $orange;
+  }
 }
 
 .nale-pink {
@@ -189,6 +196,9 @@ body {
     &.img-small {
       background-image: url('../assets/images/pink-small.png');
     }
+  }
+  .card-section-title {
+    color: $pink;
   }
 }
 
@@ -208,6 +218,13 @@ body {
       background-image: url('../assets/images/logo_leben_sm.svg');
     }
   }
+  section {
+    .card-section {
+      .card-section-title {
+        color: $orange;
+      }
+    }
+  }
 }
 
 .nale-themen {
@@ -215,6 +232,13 @@ body {
     background-image: url('../assets/images/logo_themen_xl.svg');
     &.img-small {
       background-image: url('../assets/images/logo_themen_sm.svg');
+    }
+  }
+  section {
+    .card-section {
+      .card-section-title {
+        color: $pink;
+      }
     }
   }
 }

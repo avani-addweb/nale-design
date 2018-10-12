@@ -112,6 +112,12 @@
   border: 2px solid rgba(21, 26, 33, .9);
   background-color: rgba(21, 26, 33, .9);
   color: $white;
+  &.btn-md {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    letter-spacing: .5px;
+  }
   &:hover {
     color: $white;
   }

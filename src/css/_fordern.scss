@@ -4,11 +4,14 @@
 
 .award {
   .platforma-image {
+    display: flex;
     height: 550px;
     max-width: 375px;
     width: 100%;
     background-image: url('../assets/images/kyle-ellefson-196125-unsplash.jpg');
     background-size: cover;
+    align-items: center;
+    justify-content: center;
     @media (max-width: 767px) {
       margin: auto;
     }
@@ -55,7 +58,7 @@
         min-width: 130px;
         margin: 0 10px;
         padding: 12px 10px;
-        border: 2px solid gray;
+        border: 2px solid rgba(21, 26, 33, .9);
         border-radius: 4px;
         font-size: 16px;
         line-height: 20px;
