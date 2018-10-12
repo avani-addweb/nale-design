@@ -11,7 +11,7 @@
     &.sticky {
       position: fixed;
       top: 0;
-      z-index: 9999;
+      z-index: 1;
       width: 100%;
       background-color: #FAF7EF;
       box-shadow: 0 0 12px rgba(0, 0, 0, .125);
@@ -22,7 +22,7 @@
       padding-left: 0;
     }
     @media (max-width: 479px){
-      padding-bottom: 1rem;
+      padding-bottom: 0;
     }
     .header_first {
       font-style: italic;
@@ -110,7 +110,7 @@
     .img-logo {
       @media (max-width: 767px) {
         width: 25px;
-        background-size: 95px;
+        /*background-size: 95px;*/
       }
     }
     .img-search,
