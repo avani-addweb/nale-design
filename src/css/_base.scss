@@ -233,7 +233,9 @@ section {
   section {
     .card-section {
       .card-section-title {
-        color: $orange;
+        > a {
+          color: $orange;
+        }
       }
     }
   }
@@ -254,7 +256,9 @@ section {
   section {
     .card-section {
       .card-section-title {
-        color: $pink;
+        > a {
+          color: $pink;
+        }
       }
     }
   }
@@ -275,7 +279,9 @@ section {
   section {
     .card-section {
       .card-section-title {
-        color: $green;
+        > a {
+          color: $green;
+        }
       }
     }
   }
@@ -296,7 +302,9 @@ section {
   section {
     .card-section {
       .card-section-title {
-        color: $yellow;
+        > a {
+          color: $yellow;
+        }
       }
     }
   }
@@ -317,7 +325,9 @@ section {
   section {
     .card-section {
       .card-section-title {
-        color: $blue;
+        > a {
+          color: $blue;
+        }
       }
     }
   }

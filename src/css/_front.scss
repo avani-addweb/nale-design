@@ -27,6 +27,16 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    &.bg-img-none {
+      background: none;
+      ul {
+        li {
+          display: flex;
+          border: none;
+          flex-direction: column-reverse;
+        }
+      }
+    }
     ul {
       display: flex;
       margin-top: 40px;
