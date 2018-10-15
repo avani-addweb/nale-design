@@ -128,11 +128,15 @@
       border-top: 1px solid #B1AEAC;
     }
   }
+  &:hover {
+  	opacity: .6;
+    cursor: pointer;
+  }
   .img-grid-wrap {
-    margin: 10px auto;
+    margin: 0px auto;
     border-bottom: 1px solid #B1AEAC;
     .wrap {
-      padding: 0 0 28px;
+      padding: 28px 0;
     }
   }
   .img-grid-left {
