@@ -41,6 +41,9 @@
         flex: 0 1 25%;
         a {
           color: #B1AEAC;
+          &:hover {
+            background-color: transparent;
+          }
         }
       }
     }

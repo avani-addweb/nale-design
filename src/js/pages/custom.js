@@ -64,3 +64,13 @@ jQuery(".img-hemburger").click(function(){
 jQuery(".img-grid-wrap").click(function(){
   window.location.href = window.location.hostname + $(this).find("h3").find("a").attr("href");
 });
+
+var width = $(window).width();
+jQuery(window).on('resize', function(){
+   if(jQuery(width > 767)){
+      jQuery(".header .site_title_section").removeClass("sticky");
+   }
+   else{
+      jQuery(".header .site_title_section").addClass("sticky");
+   }
+});

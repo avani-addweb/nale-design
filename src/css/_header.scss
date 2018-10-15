@@ -110,7 +110,7 @@
     .img-logo {
       @media (max-width: 767px) {
         width: 25px;
-        background-size: 95px;
+        /*background-size: 95px;*/
       }
     }
     .img-search,
@@ -148,9 +148,15 @@
               &.right {
                 text-align: right;
               }
+              @media (max-width: 767px) {
+                display: none;
+              }
             }
             &:last-child {
               display: block;
+              @media (max-width: 767px) {
+                display: none;
+              }
             }
           }
         }
