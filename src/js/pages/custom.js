@@ -60,3 +60,7 @@ jQuery(".header .menu_section nav ul li .caret").click(function(){
 jQuery(".img-hemburger").click(function(){
   jQuery(".header .menu_section").toggleClass("show");
 });
+
+jQuery(".img-grid-wrap").click(function(){
+  window.location.href = window.location.hostname + $(this).find("h3").find("a").attr("href");
+});
