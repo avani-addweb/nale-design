@@ -48,6 +48,11 @@
         flex-wrap: wrap;
         justify-content: flex-start;
       }
+      &:hover {
+        a {
+          color: $orange;
+        }
+      }
       li {
         width: 25%;
         border-right: 1px solid rgba(21, 26, 33, .2);
@@ -77,6 +82,9 @@
               .field--name-field-inactive-image {
                 display: none;
               }
+            }
+            &:hover {
+              color: $orange;
             }
           }
           .image-wrapper {
