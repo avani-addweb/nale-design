@@ -69,6 +69,7 @@
             }
           }
           &.is-active {
+            color: $orange;
             + .menu_link_content {
               .field--name-field-active-image {
                 display: block;

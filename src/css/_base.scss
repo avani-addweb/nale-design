@@ -345,3 +345,22 @@ section {
     }
   }
 }
+
+.pager {
+	.next {
+		a {
+			height: 42px;	
+			width: 151px;	
+			border: 2px solid rgba(21,26,33,0.9);	
+			border-radius: 4px;	
+			background-color: rgba(21,26,33,0.9);
+			color: #fff;
+	    display: flex;
+	    font-weight: bold;
+	    text-transform: capitalize;
+	    align-items: center;
+	    font-size: 16px;
+    	line-height: 20px;
+		}
+	}
+}
