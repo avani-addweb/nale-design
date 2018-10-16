@@ -48,17 +48,18 @@
         flex-wrap: wrap;
         justify-content: flex-start;
       }
-      &:hover {
-        a {
-          color: $orange;
-        }
-      }
+
       li {
         width: 25%;
         border-right: 1px solid rgba(21, 26, 33, .2);
         @media (max-width: 767px) {
           width: 50%;
           margin-bottom: 15px;
+        }
+        &:hover {
+          a {
+            color: $orange;
+          }
         }
         &:last-child {
           border-right: none;
