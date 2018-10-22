@@ -347,28 +347,29 @@ section {
 }
 
 .pager {
-	display: flex;
-	justify-content: center;
-	.next,.previous	 {
-		a {
-			height: 42px;	
-			width: 151px;	
-			border: 2px solid rgba(21,26,33,0.9);	
-			border-radius: 4px;	
-			background-color: rgba(21,26,33,0.9);
-			color: #fff;
+  display: flex;
+  justify-content: center;
+  .next,
+  .previous {
+  a {
 	    display: flex;
-	    font-weight: bold;
-	    text-transform: capitalize;
-	    align-items: center;
-	    font-size: 16px;
-    	line-height: 20px;
+      height: 42px;
+      width: 151px;
     	margin: 0 10px;
+      border: 2px solid rgba(21, 26, 33, .9);
+      border-radius: 4px;
+      background-color: rgba(21, 26, 33, .9);
+      color: $white;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: bold;
+      text-transform: capitalize;
+      align-items: center;
     	&:hover,
     	&:active,
     	&:focus {
-    		background-color: rgba(21,26,33,0.9);
-				color: #fff;
+    		background-color: rgba(21, 26, 33, .9);
+				color: $white;
     	}
 		}
 	}
