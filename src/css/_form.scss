@@ -14,9 +14,16 @@
     background-color: $body-bg;
     &.form-select {
     	padding: 6px 12px;
+      height: 42px;
     }
   }
   label {
     font-weight: normal;
+  }
+}
+
+.input-group {
+  .input-group-addon {
+    display: none;
   }
 }
