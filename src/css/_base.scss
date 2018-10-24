@@ -57,7 +57,7 @@ body {
 }
 
 .d_flex {
-  @include css3-sufix(display, flex);
+  @include css3-sufix(display, flex !important);
 }
 
 .align-center {

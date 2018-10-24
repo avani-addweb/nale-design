@@ -215,3 +215,12 @@
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(21, 26, 33, .2);
 }
+
+#projekte {
+  .sub_text {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    max-width: 100%;
+  }
+}
