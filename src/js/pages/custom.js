@@ -76,5 +76,6 @@ jQuery(window).on('resize', function(){
 });
 
 jQuery(".nale-view-link").click(function(){
-  document.location.href = jQuery(this).find("a.nale-view-contnet").attr("href");
+  var url = jQuery(this).find("a.nale-view-contnet").attr("href");
+  window.open( url , '_blank');
 });
