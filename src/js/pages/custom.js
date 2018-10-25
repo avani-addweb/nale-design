@@ -74,3 +74,7 @@ jQuery(window).on('resize', function(){
       jQuery(".header .site_title_section").addClass("sticky");
    }
 });
+
+jQuery(".nale-view-link").click(function(){
+  document.location.href = $(this).find("a.nale-view-contnet").attr("href");
+});
