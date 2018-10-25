@@ -229,7 +229,31 @@ section {
   }
 }*/
 
-.nale-leben {
+.nale-color--grün {
+  .brand-label {
+    background-image: url('../assets/images/Logo-green.png');
+    &.img-small {
+      background-image: url('../assets/images/logo_engagieren_sm.svg');
+    }
+  }
+  section {
+    .card-section {
+      .card-section-title {
+        color: $green;
+        > a {
+          color: $green;
+        }
+      }
+    }
+  }
+  .module-banner {
+    .section_werden {
+      @include background-horizontal($green-start, $green-end);
+    }
+  }
+}
+
+.nale-color--orange {
   .brand-label {
     background-image: url('../assets/images/logo_leben_xl.svg');
     &.img-small {
@@ -253,7 +277,7 @@ section {
   }
 }
 
-.nale-themen {
+.nale-color--rot {
   .brand-label {
     background-image: url('../assets/images/logo_themen_xl.svg');
     &.img-small {
@@ -277,7 +301,7 @@ section {
   }
 }
 
-.nale-engagieren {
+.nale-color--green {
   .brand-label {
     background-image: url('../assets/images/logo_engagieren_xl.svg');
     &.img-small {
@@ -301,7 +325,7 @@ section {
   }
 }
 
-.nale-fordern {
+.nale-color--gelb {
   .brand-label {
     background-image: url('../assets/images/logo_foerdern_xl.svg');
     &.img-small {
@@ -325,7 +349,7 @@ section {
   }
 }
 
-.nale-forum {
+.nale-color--blau {
   .brand-label {
     background-image: url('../assets/images/logo_forum_xl.svg');
     &.img-small {
