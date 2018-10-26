@@ -229,30 +229,6 @@ section {
   }
 }*/
 
-.nale-color--grün {
-  .brand-label {
-    background-image: url('../assets/images/Logo-green.png');
-    &.img-small {
-      background-image: url('../assets/images/logo_engagieren_sm.svg');
-    }
-  }
-  section {
-    .card-section {
-      .card-section-title {
-        color: $green;
-        > a {
-          color: $green;
-        }
-      }
-    }
-  }
-  .module-banner {
-    .section_werden {
-      @include background-horizontal($green-start, $green-end);
-    }
-  }
-}
-
 .nale-color--orange {
   .brand-label {
     background-image: url('../assets/images/logo_leben_xl.svg');
@@ -301,7 +277,7 @@ section {
   }
 }
 
-.nale-color--green {
+.nale-color--grün {
   .brand-label {
     background-image: url('../assets/images/logo_engagieren_xl.svg');
     &.img-small {
