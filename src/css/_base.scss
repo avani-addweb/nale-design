@@ -260,6 +260,27 @@ section {
       @include background-horizontal($orange-start, $orange-end);
     }
   }
+  .gradient-text-section {
+    text-align: center;    
+    h2 {
+      /*background: -webkit-linear-gradient(45deg,#00C675,#197592 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;*/
+      margin-bottom: 45px;
+      font-family: Averta-bold;
+      letter-spacing: -.2px;
+    }
+    p {
+      max-width: 780px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      color: rgba(21,26,33,0.7);
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 300;
+      text-align: center; 
+    }
+  }
 }
 
 .nale-color--rot {
@@ -282,6 +303,27 @@ section {
   .module-banner {
     .section_werden {
       @include background-horizontal($purple-start, $purple-end);
+    }
+  }
+  .gradient-text-section {
+    text-align: center;    
+    h2 {
+      /*background: -webkit-linear-gradient(45deg,#00C675,#197592 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;*/
+      margin-bottom: 45px;
+      font-family: Averta-bold;
+      letter-spacing: -.2px;
+    }
+    p {
+      max-width: 780px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      color: rgba(21,26,33,0.7);
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 300;
+      text-align: center; 
     }
   }
 }
@@ -366,6 +408,27 @@ section {
       @include background-horizontal($yellow-start, $yellow-end);
     }
   }
+  .gradient-text-section {
+    text-align: center;    
+    h2 {
+      /*background: -webkit-linear-gradient(45deg,#00C675,#197592 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;*/
+      margin-bottom: 45px;
+      font-family: Averta-bold;
+      letter-spacing: -.2px;
+    }
+    p {
+      max-width: 780px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      color: rgba(21,26,33,0.7);
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 300;
+      text-align: center; 
+    }
+  }
 }
 
 .nale-color--blau {
@@ -388,6 +451,27 @@ section {
   .module-banner {
     .section_werden {
       @include background-horizontal($blue-start, $blue-end);
+    }
+  }
+  .gradient-text-section {
+    text-align: center;    
+    h2 {
+      /*background: -webkit-linear-gradient(45deg,#00C675,#197592 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;*/
+      margin-bottom: 45px;
+      font-family: Averta-bold;
+      letter-spacing: -.2px;
+    }
+    p {
+      max-width: 780px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      color: rgba(21,26,33,0.7);
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 300;
+      text-align: center; 
     }
   }
 }
