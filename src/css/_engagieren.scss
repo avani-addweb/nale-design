@@ -34,22 +34,21 @@
 #geschäftsstelle {
   .field--name-field-static-content-image {
     img {
-      border-radius: 100%;
       height: 132px;
-      width: 132px;      
+      width: 132px;  
+      border-radius: 100%;
     }
   }
-} 
-  
+}
 #block-views-block-imageteaser-front-block-2 {
   .view-header {
     h2 {
-      background: -webkit-linear-gradient(45deg, #00C675, #197592 80%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
       margin-bottom: 45px;
+      background: -webkit-linear-gradient(45deg, #00C675, #197592 80%);
       font-family: Averta-bold;
       letter-spacing: -.2px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     h4 {
       display: inline-block;
@@ -58,11 +57,11 @@
       padding-top: 5px;
       border: 3px solid #3EC8AC;
       border-radius: 100%;
+      background: -webkit-linear-gradient(45deg, #00C675, #197592 80%);
       font-weight: bold;
       text-align: center;
-      background: -webkit-linear-gradient(45deg, #00C675, #197592 80%);
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; 
+      -webkit-text-fill-color: transparent;
     }
   }
-}  
+}
