@@ -205,6 +205,7 @@ section {
     @include background-horizontal($green-start, $green-end);
   }
 }
+
 /*.nale-orange {
   .brand-label {
     background-image: url('../assets/images/orange.png');
@@ -262,10 +263,23 @@ section {
   }
   .gradient-text-section {
     text-align: center;    
-    h2 {
-      /*background: -webkit-linear-gradient(45deg,#00C675,#197592 80%);
+    h4 {
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      padding-top: 5px;
+      border: 3px solid #3EC8AC;
+      border-radius: 100%;
+      font-weight: bold;
+      text-align: center;
+      background: -webkit-linear-gradient(45deg,$orange-start,$orange-end 80%);
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;*/
+      -webkit-text-fill-color: transparent;
+    }
+    h2 {
+      background: -webkit-linear-gradient(45deg,$orange-start,$orange-end 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       margin-bottom: 45px;
       font-family: Averta-bold;
       letter-spacing: -.2px;
@@ -307,10 +321,23 @@ section {
   }
   .gradient-text-section {
     text-align: center;    
-    h2 {
-      /*background: -webkit-linear-gradient(45deg,#00C675,#197592 80%);
+    h4 {
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      padding-top: 5px;
+      border: 3px solid #3EC8AC;
+      border-radius: 100%;
+      font-weight: bold;
+      text-align: center;
+      background: -webkit-linear-gradient(45deg,$purple-start,$purple-end 80%);
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;*/
+      -webkit-text-fill-color: transparent;
+    }
+    h2 {
+      background: -webkit-linear-gradient(45deg,$purple-start,$purple-end 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       margin-bottom: 45px;
       font-family: Averta-bold;
       letter-spacing: -.2px;
@@ -361,12 +388,12 @@ section {
       border-radius: 100%;
       font-weight: bold;
       text-align: center;
-      background: -webkit-linear-gradient(45deg,#00C675,#197592 80%);
+      background: -webkit-linear-gradient(45deg,$green-start,$green-end 80%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     h2 {
-      background: -webkit-linear-gradient(45deg,#00C675,#197592 80%);
+      background: -webkit-linear-gradient(45deg,$green-start,$green-end 80%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-bottom: 45px;
@@ -410,10 +437,23 @@ section {
   }
   .gradient-text-section {
     text-align: center;    
-    h2 {
-      /*background: -webkit-linear-gradient(45deg,#00C675,#197592 80%);
+    h4 {
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      padding-top: 5px;
+      border: 3px solid #3EC8AC;
+      border-radius: 100%;
+      font-weight: bold;
+      text-align: center;
+      background: -webkit-linear-gradient(45deg,yellow-start,$yellow-end 80%);
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;*/
+      -webkit-text-fill-color: transparent;
+    }
+    h2 {
+      background: -webkit-linear-gradient(45deg,$yellow-start,$yellow-end 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       margin-bottom: 45px;
       font-family: Averta-bold;
       letter-spacing: -.2px;
@@ -454,11 +494,24 @@ section {
     }
   }
   .gradient-text-section {
-    text-align: center;    
-    h2 {
-      /*background: -webkit-linear-gradient(45deg,#00C675,#197592 80%);
+    text-align: center;   
+    h4 {
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      padding-top: 5px;
+      border: 3px solid #3EC8AC;
+      border-radius: 100%;
+      font-weight: bold;
+      text-align: center;
+      background: -webkit-linear-gradient(45deg,blue-start,blue-end 80%);
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;*/
+      -webkit-text-fill-color: transparent;
+    } 
+    h2 {
+      background: -webkit-linear-gradient(45deg,blue-start,blue-end 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       margin-bottom: 45px;
       font-family: Averta-bold;
       letter-spacing: -.2px;
