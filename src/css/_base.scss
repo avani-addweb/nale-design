@@ -564,3 +564,10 @@ section {
   	}
   }
 }
+#form-lbl {
+  label {
+    &.control-label {
+      display: block !important;
+    }
+  }
+}
