@@ -1,16 +1,16 @@
 #waswurde {
   .card-section {
-  	.row {
-  	  .box-card {
-  	    .card-body {
-  	      display: flex;
-		  		flex-direction: column;
-		  		justify-content: center;
+    .row {
+      .box-card {
+        .card-body {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
   	    }
-  	  }	
-  	  a {
-  	    text-align: center;
-  	  }	
+  	  }
+      a {
+        text-align: center;
+  	  }
   	}
-  }		
+  }
 }
