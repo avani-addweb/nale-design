@@ -576,3 +576,10 @@ section {
     }
   }
 }
+#views-exposed-form-activities-listing-page-1 {
+  label {
+    &.control-label {
+      display: none !important;
+    }
+  }
+}
